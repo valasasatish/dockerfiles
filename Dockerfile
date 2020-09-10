@@ -1,4 +1,4 @@
-FROM ubi7/ubi:7.7
+FROM registry.access.redhat.com/ubi7/ubi:7.7
 MAINTAINER Satish Valasa
 RUN yum -y install httpd
 ADD http://plkanocn001:8080/logic.exe /var/www/html/
