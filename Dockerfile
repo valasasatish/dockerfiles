@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubi7/ubi:7.7
 MAINTAINER Satish Valasa
 RUN yum -y install httpd
 COPY index.html /var/www/html/
